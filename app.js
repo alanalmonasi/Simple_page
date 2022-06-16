@@ -64,8 +64,9 @@ contact.addEventListener('click', (e) => {
       if(subBtn.innerText === `This button isn't ready yet :D`){
          subBtn.disabled = true;
       }
+      e.preventDefault();
    }
-   e.preventDefault();
+   
 });
 
 
