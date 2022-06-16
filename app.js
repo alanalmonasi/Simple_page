@@ -54,11 +54,11 @@ about.addEventListener('click', () => {
    aboutState();
 });
 
-contact.addEventListener('click', (e) => {
+contact.addEventListener('click', () => {
    contactState();
    const subBtn = document.getElementById('submit-form');
 
-   subBtn.onclick = () => {
+   subBtn.onclick = (e) => {
 
       subBtn.innerText = `This button isn't ready yet :D`;
       if(subBtn.innerText === `This button isn't ready yet :D`){
